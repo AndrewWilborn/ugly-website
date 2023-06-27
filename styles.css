@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(74, 65, 42);
+    color: rgba(208, 255, 0, 0.20);
+    filter: blur(1px);
+}
+
+.br{
+    padding:10px;
+}
+
+.h1 {
+    font-size: xx-large;
+    transform:skew(-10deg, -10deg);
+    font-family: monospace;
+    border: 5px dashed rgb(105, 130, 187)  ;
+}
+
+.img{
+    border: 10px double red;
+    color: rgb(170, 255, 0);
+    width: 300px;
+}
+
+.img img{
+    width: 100%;
+    filter: contrast(10);
+    filter: brightness(5);
+}
+
+.h2 {
+    font-size: x-large;
+}
+
+.p {
+    padding: 0px;
+    border: 30px dotted rgb(220, 111, 235);
+    margin: 10px;
+    width: 320px;
+    font-size: small;
+    font-family: "Comic Sans MS";
+    transform: rotate(.3deg)
+}
+
+.footer{
+    font-size: medium;
+    font-family: "Comic Sans MS";
+}
+
+#copy{
+    font-size:small;
+    font-family: monospace;
+}
+
+#foo{
+    font-family: "Helvetica";
+}
